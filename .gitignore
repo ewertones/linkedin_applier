@@ -3,3 +3,4 @@ __pycache__
 .mypy_cache
 logs
 venv
+modules/settings.py

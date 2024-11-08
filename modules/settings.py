@@ -20,9 +20,9 @@ class Settings(BaseModel):
     # OTHER SETTINGS
     # PERSONAL SETTINGS
     first_name: str = "Ewerton"
-    middle_name: str = ""
+    middle_name: str = "Evangelista"
     last_name: str = "de Souza"
-    phone_number: str = ""
+    phone_number: str = "5531998546167"
     current_city: str = "Belo Horizonte, Brazil"
     street: str = "Belo Horizonte"
     state: str = "Minas Gerais"
@@ -57,8 +57,10 @@ class Settings(BaseModel):
     ] = "Non-citizen allowed to work for any employer"
     desired_salary: int = 100000
     notice_period_in_days: int = 7
-    headline: str = ""
-    summary: str = ""
+    headline: str = "A Software Developer working as a Data wildcard: Engineer, Scientist, Analyst, DevOps and so on"
+    summary: str = (
+        "Hello! I'm a Software Developer working as a Data wildcard: Engineer, Scientist, Analyst, DevOps and so on"
+    )
     cover_letter: str = "Hey, let's talk :)"
     recent_employer: str = "Not Applicable"  # "", "Lala Company", "Google", "Snowflake", "Databricks"
     confidence_level: str = "8"  # To answer questions having a confidence level of 1-10
